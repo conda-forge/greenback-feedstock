@@ -1,5 +1,5 @@
 {% set name = "greenback" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: db8b323617e1e1a7cbb3615fb9048c44b483aab3d3415f49e07c6957c5fce60d
+  sha256: de3ca656885c03b96dab36079f3de74bb5ba061da9bfe3bb69dccc866ef95ea3
 
 build:
   noarch: python
